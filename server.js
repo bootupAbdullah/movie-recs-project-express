@@ -38,6 +38,6 @@ app.put('/movies/:movieId', movieCtrl.fourthCommand);
 
 
 // <------------------------------------------- Start Server --------------------------------------->
-app.listen(3000, () => {
+app.listen(3001, () => {
   console.log('movie recommendation app is live, start posting');
 });
