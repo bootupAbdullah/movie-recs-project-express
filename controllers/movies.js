@@ -28,7 +28,7 @@ const thirdCommand = async (req, res) => {
 
 // <------------------------------------------- PUT ROUTE-------------------------------->
 // #3
-// HTTP UPDATE -
+// HTTP PUT -
  const fourthCommand = async (req, res) => {
     const updatedMovie = await Movie.findByIdAndUpdate(
         req.params.movieId, 
