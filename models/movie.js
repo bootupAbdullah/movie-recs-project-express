@@ -10,14 +10,12 @@ const movieSchema = new mongoose.Schema({
         released: Date,
         genre: String,
         poster: String,
-    watched: {
-        type: Boolean,
-        default: false
-    }, 
-    addtionalIndfo: {
         director: String, 
         actors: String,
         awards: String,
+    watched: {
+        type: Boolean,
+        default: false
     }
 });
 
