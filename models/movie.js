@@ -3,16 +3,16 @@ const  mongoose = require ('mongoose');
 // <------------------------------------------- Schemas ------------------------------------------------->
 
 const movieSchema = new mongoose.Schema({
-        title: String,
-        plot: String,
-        runtime: String,
-        rated: String,
-        released: Date,
-        genre: String,
-        poster: String,
-        director: String, 
-        actors: String,
-        awards: String,
+        Title: String,
+        Plot: String,
+        Runtime: String,
+        Rated: String,
+        Released: Date,
+        Genre: String,
+        Poster: String,
+        Director: String, 
+        Actors: String,
+        Awards: String,
     watched: {
         type: Boolean,
         default: false
